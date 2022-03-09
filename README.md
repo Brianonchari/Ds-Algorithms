@@ -2,8 +2,13 @@
 
 # Data structures and algorithms
 This is a playground repository for data structures and algorithms in Java
-
-# Data Structures
+## Table Of Contents
+- [Intro](#$Intro)
+- [Data Structures](##datastructures)
+- [Resources](##Resources)
+## Intro
+## Data Structures
+## Resources
 
 # License
 > This repository is distributed under [MIT License](https://opensource.org/licenses/MIT).
