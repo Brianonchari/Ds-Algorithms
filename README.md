@@ -7,6 +7,8 @@ This is a playground repository for data structures and algorithms in Java
 - [Data Structures](##datastructures)
 - [Resources](##Resources)
 ## Intro
+Data structures and algorithms are essential in writing effecient code and also in designing good software.The goal
+of this repository is to document my learnings and implementations of various data structures and algorithms.
 ## Data Structures
 ## Resources
 
