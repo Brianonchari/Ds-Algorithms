@@ -3,7 +3,7 @@
 # Data structures and algorithms
 This is a playground repository for data structures and algorithms in Java
 ## Table Of Contents
-- [Intro](#$Intro)
+- [Intro](#Intro)
 - [Data Structures](##datastructures)
 - [Resources](##Resources)
 ## Intro
