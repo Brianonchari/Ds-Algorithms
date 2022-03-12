@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Url Checker](https://github.com/Brianonchari/Ds-Algorithms/blob/main/.github/workflows/Url%20C%20hecker/badge.svg)
+![Url Checker](https://github.com/Brianonchari/Ds-Algorithms/blob/main/.github/workflows/url_checker.yml)
 
 # 🛠Data structures and algorithms🛠 
 This is a playground repository for data structures and algorithms in Java
