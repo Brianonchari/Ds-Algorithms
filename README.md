@@ -15,9 +15,15 @@ of this repository is to document my learnings and implementations of various da
 
 ## Data Structures
 Data structures are a means of organizing and storing data in a computer so a to make it effective to perfom operations on the stored data.
+#### Why data structures?
+- help manage and organize data.
+- clean and understandable code.
+- essential in creating fast and powerful algorithms.
+- 
 ## Algorithms
 
-## Resources
+## Helpful Resources
+1. [FreecordCamp course on Data Structures and Algorithms](https://www.youtube.com/watch?v=RBSGKlAvoiM) by William Fiset
 
 # License
 > This repository is distributed under [MIT License](https://opensource.org/licenses/MIT).
