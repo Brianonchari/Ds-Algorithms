@@ -1,23 +1,25 @@
-# This is workflow tests for broken linkes in the README.md file
+# Use awesome bot to verify that all URLs in the README are valid.
 
-name: Url Checker
-
-# Controls when the workflow will run
+name:  URL Checker
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    steps: 
-      - name: Check Urls
-        uses: paramt/url-checker@master
-        with:
-          files: "README.md"
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Install Awesome Bot
+      run: gem install awesome_bot
+    - name: Run Awesome Bot
+      run: |
+        awesome_bot README.md --allow-dupe --allow-redirect
+        echo "If this workflow fails, it usually means there's a broken link in the README that needs fixing. This workflow has been flaky in the past, so verify the reported broken links, but don't sweat it if this workflow is broken."
+
