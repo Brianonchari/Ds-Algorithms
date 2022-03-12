@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Data structures and algorithms
+# 🛠Data structures and algorithms🛠 
 This is a playground repository for data structures and algorithms in Java
 ## Table Of Contents
 - [Intro](#Intro)
@@ -14,8 +14,7 @@ Data structures and algorithms are essential in writing effecient code and also 
 of this repository is to document my learnings and implementations of various data structures and algorithms.
 
 ## Data Structures
-Data structures are a means of organizing and storing data in a computer so a to make it effective to perfom operations 
-on the stored data.
+Data structures are a means of organizing and storing data in a computer so a to make it effective to perfom operations on the stored data.
 ## Algorithms
 
 ## Resources
