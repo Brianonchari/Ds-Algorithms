@@ -19,6 +19,6 @@ jobs:
           distribution: 'adopt'
           cache: maven
       - name: Build with maven
-        run: mvn --batch-mode --update-snapshots verify verifyGoogleJavaFormat
+        run: mvn --batch-mode --update-snapshots verify
 
 
