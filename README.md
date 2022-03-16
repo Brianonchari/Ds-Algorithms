@@ -6,6 +6,7 @@ This is a playground repository for data structures and algorithms in Java
 - [Intro](#Intro)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
+- [Plugins](#plugins)
 - [Resources](#helpful-resources)
 - [License](#license)
 
