@@ -1,6 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
 # 🛠Data structures and algorithms🛠 
 This is a playground repository for data structures and algorithms in Java
 ## Table Of Contents
@@ -20,8 +19,12 @@ Data structures are a means of organizing and storing data in a computer so a to
 - help manage and organize data.
 - clean and understandable code.
 - essential in creating fast and powerful algorithms.
-- 
+
 ## Algorithms
+
+## Plugins
+- [Git Code Format Maven Plugin](https://github.com/Cosium/git-code-format-maven-plugin) A maven plugin that automatically deploys
+  [google-java-format](https://github.com/google/google-java-format) code formatter as a `pre-commit` git hook.
 
 ## Helpful Resources
 1. [FreecordCamp course on Data Structures and Algorithms](https://www.youtube.com/watch?v=RBSGKlAvoiM) by William Fiset
