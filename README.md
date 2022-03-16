@@ -31,7 +31,6 @@ Data structures are a means of organizing and storing data in a computer so a to
 1. [FreecordCamp course on Data Structures and Algorithms](https://www.youtube.com/watch?v=RBSGKlAvoiM) by William Fiset
 
 # License
-> This repository is distributed under [MIT License](https://opensource.org/licenses/MIT).
 ```
 MIT License
 
