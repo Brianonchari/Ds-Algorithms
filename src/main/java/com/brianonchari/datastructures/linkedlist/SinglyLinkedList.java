@@ -12,6 +12,10 @@ package com.brianonchari.datastructures.linkedlist;
 public class SinglyLinkedList {
   private Node head;
 
+  public static void main(String[] args) {
+    System.out.print("SINGLE LINKED LIST");
+  }
+
   public boolean isEmpty() {
     return length() == 0;
   }

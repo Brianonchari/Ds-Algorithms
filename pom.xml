@@ -25,7 +25,8 @@
                 <artifactId>git-code-format-maven-plugin</artifactId>
                 <version>3.3</version>
                 <executions>
-                    <!-- On commit, format the modified java files -->
+                    <!-- On
+                     commit, format the modified java files -->
                     <execution>
                         <id>install-formatter-hook</id>
                         <goals>
