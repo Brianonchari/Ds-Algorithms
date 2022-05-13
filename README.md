@@ -12,7 +12,7 @@ This is a playground repository for data structures and algorithms in Java
 
 ## Intro
 Data structures and algorithms are essential in writing effecient code and also in designing good software.The goal
-of this repository is to document my learnings and implementations of various data structures and algorithms.
+of this repository is to document my learnings and implementations of various data structures and algorithms in Java.
 
 ## Data Structures
 Data structures are a means of organizing and storing data in a computer so a to make it effective to perfom operations on the stored data.
