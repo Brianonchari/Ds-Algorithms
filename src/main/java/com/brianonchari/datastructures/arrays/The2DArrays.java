@@ -27,3 +27,11 @@ public class The2DArrays {
 
     }
 }
+
+
+// language..Java
+// design patterns
+// algorithms
+// data structures
+// solid principles
+// practise 
