@@ -1,5 +1,7 @@
 package com.brianonchari.datastructures.arrays;
 
+import com.brianonchari.datastructures.recursion.Recursion;
+
 import java.util.Arrays;
 
 public class The2DArrays {
@@ -24,6 +26,8 @@ public class The2DArrays {
         };
 
         System.out.println(Arrays.deepToString(newBoard));
+
+        Recursion.firstMethod();
 
     }
 }
