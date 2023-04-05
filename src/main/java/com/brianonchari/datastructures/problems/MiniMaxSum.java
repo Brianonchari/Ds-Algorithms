@@ -1,4 +1,4 @@
-package com.brianonchari.datastructures.questions;
+package com.brianonchari.datastructures.problems;
 /**
  *
  *
