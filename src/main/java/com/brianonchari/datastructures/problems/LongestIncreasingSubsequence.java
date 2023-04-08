@@ -1,4 +1,3 @@
 package com.brianonchari.datastructures.problems;
 
-public class LongestIncreasingSubsequence {
-}
+public class LongestIncreasingSubsequence {}

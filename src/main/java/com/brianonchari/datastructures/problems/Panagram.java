@@ -1,0 +1,45 @@
+package com.brianonchari.datastructures.problems;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * Problem Statement
+ * =================
+ * Given a string sentence containing English letters (lower- or upper-case), return true if sentence is a Pangram, or false otherwise.
+ *
+ * A Pangram is a sentence where every letter of the English alphabet appears at least once.
+ *
+ * Example 1:
+ * ================
+ * Input: sentence = "TheQuickBrownFoxJumpsOverTheLazyDog"
+ * Output: true
+ * Explanation: The sentence contains at least one occurrence of every letter of the English alphabet either in lower or upper case.
+ *
+ * Example 2:
+ * Input: sentence = "This is not a pangram"
+ * Output: false
+ * Explanation: The sentence doesn't contain at least one occurrence of every letter of the English alphabet.
+ */
+
+
+public class Panagram {
+    public static void main(String[] args){
+        String  sentence = "TheQuickBrownFoxJumpsOverTheLazyDog";
+        String  sentence2 = "This is a program";
+        Panagram.checkIfPangram(sentence2);
+
+    }
+
+    public static boolean checkIfPangram(String sentence) {
+        // TODO: Write your code here
+        Set<Character> str = new HashSet<>();
+        for(char x:sentence.toLowerCase().toCharArray()){
+           if(Character.isLetter(x)){
+               str.add(x);
+           }
+        }
+        System.out.println(str.size()==26);
+        return str.size()==26;
+    }
+}
