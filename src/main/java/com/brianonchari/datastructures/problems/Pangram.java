@@ -23,13 +23,24 @@ import java.util.Set;
  */
 
 
-public class Panagram {
+
+public class Pangram {
     public static void main(String[] args){
         String  sentence = "TheQuickBrownFoxJumpsOverTheLazyDog";
         String  sentence2 = "This is a program";
-        Panagram.checkIfPangram(sentence2);
+        Pangram.checkIfPangram(sentence2);
 
     }
+
+    /*
+    * Time Complexity
+    * ----------------
+    * The Time complexit of this solution is O(n), where n is the length of the input string 'sentence'
+    *
+    * Space Complexity
+    * ----------------
+    * The space complexity is O(1), since the English alphabets have a constant size of 26
+    * */
 
     public static boolean checkIfPangram(String sentence) {
         // TODO: Write your code here
