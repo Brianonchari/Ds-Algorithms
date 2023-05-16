@@ -22,5 +22,9 @@ public class Main {
         // Space complexity is also O(1) because an extra memory is not required
         System.out.println("Accessed element is "+firstElement);
 
+
+        System.out.println("Array Traversal");
+        sda.traverseArray();
+
     }
 }

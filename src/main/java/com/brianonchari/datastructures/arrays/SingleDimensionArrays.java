@@ -12,6 +12,10 @@ public class SingleDimensionArrays {
         }
     }
 
+    /*The time complexity of this insert function is O(1) constant
+    / because it's not dependent on input size. It always takes the same amount of time to insert
+    / an element to an array index
+    .*/
     public void insert(int location, int valueToBeInserted) {
         try {
             if (arr[location] == Integer.MIN_VALUE) {
@@ -24,8 +28,22 @@ public class SingleDimensionArrays {
         } catch (ArrayIndexOutOfBoundsException exception) {
             System.out.println("Invalid index to access an array!");
         }
-    }  // The time complexity of this insert function is O(1) constant
-    // because it's not dependent on input size. It always takes the same amount of time to insert
-    // an element to an array index.
+    }
 
+
+    /*
+     *Array Traversal
+     * --------------
+     * The time complexity of the function below is O(N) because we have to loop
+     * through the size N of the array. In this case N is the size of array arr[]
+     */
+    public void traverseArray(){
+        try {
+            for (int i = 0; i<arr.length;i++){
+                System.out.print(arr[i] + " ");
+            }
+        }catch (Exception exception){
+            System.out.println("Array no longer exists");
+        }
+    }
 }
