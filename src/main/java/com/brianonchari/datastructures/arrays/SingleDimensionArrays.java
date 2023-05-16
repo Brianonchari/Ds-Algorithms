@@ -25,5 +25,7 @@ public class SingleDimensionArrays {
             System.out.println("Invalid index to access an array!");
         }
     }  // The time complexity of this insert function is O(1) constant
-    // because it's not dependent on input size
+    // because it's not dependent on input size. It always takes the same amount of time to insert
+    // an element to an array index.
+
 }
