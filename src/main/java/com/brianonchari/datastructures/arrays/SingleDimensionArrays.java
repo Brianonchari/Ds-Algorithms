@@ -35,7 +35,9 @@ public class SingleDimensionArrays {
      *Array Traversal
      * --------------
      * The time complexity of the function below is O(N) because we have to loop
-     * through the size N of the array. In this case N is the size of array arr[]
+     * through the size N of the array. In this case N is the size of array arr[].
+     *
+     * The space complexity is constant O(1). An extra memory is not required.
      */
     public void traverseArray(){
         try {
