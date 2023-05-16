@@ -16,7 +16,7 @@ public class TheArrays {
     // Access Arrays at given index
     System.out.println(colors[0]);
     System.out.println(colors[1]);
-    System.out.println(colors[1]);
+    System.out.println(colors[2]);
     System.out.println(colors[3]);
     System.out.println(colors[4]);
 
