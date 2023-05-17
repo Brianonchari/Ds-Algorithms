@@ -65,4 +65,18 @@ public class SingleDimensionArrays {
         }
         System.out.println(valueToSearch + " not found");
     }
+
+    /* Delete value from array
+     *--------------------------
+     * The time and space complexity of this method is constant O(1)
+     *
+     *  */
+    public void deleteValue(int valueToDeleteIndex) {
+        try {
+            arr[valueToDeleteIndex] = Integer.MIN_VALUE;
+            System.out.println("The value has been deleted successfully");
+        } catch (ArrayIndexOutOfBoundsException exception) {
+            System.out.println("The provided index is not in the range of the array");
+        }
+    }
 }

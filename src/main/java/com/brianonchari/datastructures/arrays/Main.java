@@ -7,7 +7,7 @@ public class Main {
         SingleDimensionArrays sda = new SingleDimensionArrays(10);
         sda.insert(0,1);
         sda.insert(0,1); // This index is already occupied
-        sda.insert(1,2);
+//        sda.insert(1,2);
         sda.insert(2,3);
         sda.insert(3,4);
         sda.insert(4,5);
@@ -28,6 +28,9 @@ public class Main {
 
         System.out.println("Search an element in a given array");
         sda.searchInArray(20);
+
+        System.out.println("Delete an element in a given array");
+        sda.deleteValue(1);
 
     }
 }
