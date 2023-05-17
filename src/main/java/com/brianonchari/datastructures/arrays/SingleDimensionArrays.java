@@ -50,13 +50,16 @@ public class SingleDimensionArrays {
     }
 
     /*
-    /  Search  for ab element in a given array
+     *Search  for ab element in a given array
+     * The time  complexity of this search method is O(N), because it is dependent on the
+     * size of the array
+     * The space complexity is O(1)
      */
 
-    public void  searchInArray(int valueToSearch){
-        for(int i = 0; i<arr.length;i++){
-            if(arr[i]==valueToSearch){
-                System.out.println("Value "+valueToSearch+" found at index " + i);
+    public void searchInArray(int valueToSearch) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == valueToSearch) {
+                System.out.println("Value " + valueToSearch + " found at index " + i);
                 return;
             }
         }
