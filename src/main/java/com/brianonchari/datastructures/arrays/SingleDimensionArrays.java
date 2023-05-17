@@ -39,13 +39,27 @@ public class SingleDimensionArrays {
      *
      * The space complexity is constant O(1). An extra memory is not required.
      */
-    public void traverseArray(){
+    public void traverseArray() {
         try {
-            for (int i = 0; i<arr.length;i++){
+            for (int i = 0; i < arr.length; i++) {
                 System.out.print(arr[i] + " ");
             }
-        }catch (Exception exception){
+        } catch (Exception exception) {
             System.out.println("Array no longer exists");
         }
+    }
+
+    /*
+    /  Search  for ab element in a given array
+     */
+
+    public void  searchInArray(int valueToSearch){
+        for(int i = 0; i<arr.length;i++){
+            if(arr[i]==valueToSearch){
+                System.out.println("Value "+valueToSearch+" found at index " + i);
+                return;
+            }
+        }
+        System.out.println(valueToSearch + " not found");
     }
 }

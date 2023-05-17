@@ -26,5 +26,8 @@ public class Main {
         System.out.println("Array Traversal");
         sda.traverseArray();
 
+        System.out.println("Search an element in a given array");
+        sda.searchInArray(20);
+
     }
 }
