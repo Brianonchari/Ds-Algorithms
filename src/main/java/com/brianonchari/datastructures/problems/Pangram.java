@@ -43,7 +43,6 @@ public class Pangram {
     * */
 
     public static boolean checkIfPangram(String sentence) {
-        // TODO: Write your code here
         Set<Character> str = new HashSet<>();
         for(char x:sentence.toLowerCase().toCharArray()){
            if(Character.isLetter(x)){
