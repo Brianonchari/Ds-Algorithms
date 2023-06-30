@@ -17,7 +17,7 @@ public class Main {
         sda.insert(9,10);
         sda.insert(10,11); // Throws exception : ArraysIndexOutOfBoundException
 
-        var firstElement = sda.arr[0];  // --------------O(1) Time Complexity to access an index
+        int firstElement = sda.arr[0];  // --------------O(1) Time Complexity to access an index
         // Space complexity is also O(1) because an extra memory is not required
         System.out.println("Accessed element is "+firstElement);
 
