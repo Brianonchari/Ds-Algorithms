@@ -30,7 +30,5 @@ public class Main {
 
         System.out.println("Delete an element in a given array");
         sda.deleteValue(1);
-
-
     }
 }
