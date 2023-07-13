@@ -14,10 +14,12 @@ public class RemoveDuplicatesLinkedList {
         System.out.print("Original List: ");
         list.display();
 
-        list.deleteDups();
+        RemoveDuplicatesLinkedList newList = new RemoveDuplicatesLinkedList();
 
-        System.out.print("Updated List: ");
-        list.display();
+        newList.deleteDups(list);
+
+//        System.out.print("Updated List: ");
+//        list.display();
     }
 
     public class Node{
@@ -42,15 +44,16 @@ public class RemoveDuplicatesLinkedList {
                 current = current.next;
             }
             current.next = newNode;
+
         }
     }
 
-    public void deleteDups(){
-        if(head==null){
+    public void deleteDups(RemoveDuplicatesLinkedList list){
+        if(list.head==null){
             return;
         }
         HashSet<Integer> set = new HashSet<>();
-        Node current = head;
+        Node current = list.head;
         Node previous = null;
         while(current != null){
             int data = current.data;
@@ -63,7 +66,10 @@ public class RemoveDuplicatesLinkedList {
             }
 
             current = current.next;
+
         }
+        System.out.print("Updated List: ");
+        list.display();
     }
 
     public  void display(){
